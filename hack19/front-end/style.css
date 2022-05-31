@@ -13,11 +13,38 @@ body {
 }
 .jockey-container {
   border: 1px solid black;
-  width: 300px;
-  height: 600px;
+  width: 100%;
+  /*min-height: 600px;*/
   display: grid;
   grid-template-rows: auto;
 }
+
 .kit-section {
-  border: 1px solid red;
+  width: 234px;
+  height: 100px;
+  background-color: grey;
+}
+
+.jockey-container .cap {
+  background-image: url("assets/cap.png");
+  background-repeat: no-repeat;
+  background-size: 234px 100px;
+}
+
+.jockey-container .jersey {
+  background-image: url("assets/tshirt.png");
+  background-repeat: no-repeat;
+  background-size: 234px 100px;
+}
+
+.jockey-container .trousers {
+  background-image: url("assets/trousers.png");
+  background-repeat: no-repeat;
+  background-size: 234px 100px;
+}
+
+.jockey-container .saddle {
+  background-image: url("assets/saddle.png");
+  background-repeat: no-repeat;
+  background-size: 234px 100px;
 }
